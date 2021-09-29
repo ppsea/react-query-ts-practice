@@ -7,7 +7,9 @@ import styles from '../styles/Home.module.css';
 const Home: FC = () => {
   return (
     <>
-      <Link href="/person">person page</Link>
+      <Link href="/person" passHref>
+        <a style={{ color: 'red' }}> person page</a>
+      </Link>
     </>
   );
 };
